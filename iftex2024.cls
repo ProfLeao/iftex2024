@@ -128,6 +128,11 @@
 \RequirePackage{xstring}%
 % Geração de índice
 \RequirePackage{imakeidx}%
+% Melhorias na justificação
+\RequirePackage{microtype}% 
+% Justificação das referências.
+\usepackage{etoolbox}
+\usepackage{ragged2e}
 
 % -------------------------------------------------------
 % Metadados
